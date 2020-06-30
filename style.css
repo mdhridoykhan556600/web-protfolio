@@ -1,4 +1,148 @@
+/*Start header area*/
+
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
 }
+.header{
+    padding: 10px 0px;
+    background-image: url('../images/top-banner.png' );
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.container{
+    width: 86%;
+    margin: auto;
+}
+.left-area{
+    width: 40%;
+    float: left;
+}
+.left-area h2{
+    font-size: 50px;
+}
+.left-area p{
+    color: dimgray;
+    text-align: justify;
+}
+.left-area a{
+    text-decoration: none;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    margin-top: 100px;
+}
+.orange{
+    color: #FFA500;
+}
+.right-area{
+    width:60% ;
+    float: left;
+}
+.right-area img{
+    width: 100%;
+    margin-left: 50px;
+}
+/*End header area*/
+/*Start middle area*/
+.middle{
+    overflow: hidden;
+    background-image: url('../images/dream-bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.middle .container{
+    width: 86%;
+    margin:auto;
+}
+.left2-area{
+    width: 55%;
+    float: left;
+}
+.left2-area img{
+    width: 88%;
+}
+.right2-area{
+    width: 45%;
+    float: left;
+}
+.right2-area h2{
+    font-size: 40px;
+}
+.right2-area p{
+    color:dimgray ;
+}
+.right2-area a{
+    text-decoration: none;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+/*End middle area*/
+/*Start footer area*/
+.footer{
+    overflow: hidden;
+    background-image: url('../images/exp-bg.png');
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.footer h2{
+    font-size: 40px;
+}
+.footer .container{
+    width: 97%;
+    margin:auto;
+}
+.left3-area{
+    width: 40%;
+    float: left;
+    box-shadow: 5px 7px 40px grey;
+    margin-right: 100px;
+    margin-left: 69px;
+    height: 280px;
+    text-align:center;
+    margin-bottom: 30px;
+   
+}
+.right3-area{
+    width: 40%;
+    float: left;
+    box-shadow: 5px 7px 40px grey;
+    height: 280px;
+    text-align: center;
+    margin-bottom: 160px;
+}
+.left3-area h2,
+.right3-area h2{
+    font-size: 40px; 
+}
+.left3-area h3,
+.right3-area h3{
+    color: #FFA552;
+}
+.left3-area p,
+.right3-area p{
+    color: dimgray;
+}
+.footer #sideborder1{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+.footer #sideborder2{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+.last-footer{
+    text-align: center;
+    color: gray;
+}
+/*End footer area*/
+
+
